@@ -1,0 +1,38 @@
+# Site settings
+# For more configuration options, see https://jekyllrb.com/docs/configuration/
+
+# Site title and description
+# (Change these to your project details)
+title: INC242 Pi5 Docs 2025
+description: Documentation for INC242 Pi5 Project 2025
+
+# URL settings
+# (Set to your GitHub Pages site URL)
+url: "https://tangnatta.github.io/INC242-Pi5-Docs-2025"
+baseurl: "" # Deploy to root
+
+# Build settings
+markdown: kramdown
+theme: minima # You can change to another supported theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude these files from the build
+exclude:
+  # - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Defaults
+# (Optional: set default layout, etc.)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Github Pages settings
+github:
+  is_project_page: true
