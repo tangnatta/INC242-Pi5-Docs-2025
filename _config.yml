@@ -12,27 +12,28 @@ url: "https://tangnatta.github.io/INC242-Pi5-Docs-2025"
 baseurl: "" # Deploy to root
 
 # Build settings
+
 markdown: kramdown
-theme: minima # You can change to another supported theme
+remote_theme: "jekyll/minima@1e8a445" # Pin to a stable commit for minima
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  # - jekyll-feed
+  # - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Exclude these files from the build
 exclude:
   # - README.md
   - Gemfile
   - Gemfile.lock
+# # Defaults
+# # (Optional: set default layout, etc.)
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
 
-# Defaults
-# (Optional: set default layout, etc.)
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-# Github Pages settings
-github:
-  is_project_page: true
+# # Github Pages settings
+# github:
+#   is_project_page: true
