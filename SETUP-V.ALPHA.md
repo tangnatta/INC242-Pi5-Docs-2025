@@ -31,13 +31,13 @@
     - Or use a network scanning tool like [Angry IP Scanner](https://angryip.org/) to scan your network for connected devices (If the scan detects a device, it will appear under the hostname you set in method 7. You just need to copy the IP address.)
 13. Open terminal then type command to ssh to raspberry pi 5 `ssh username@ip_address` (replace `username` with the username you set earlier and `ip_address` with the IP address of your Raspberry Pi 5)
 14. If prompted, type "yes" to continue connecting
-15. Enter the password you set earlier when prompted (password from you set in method 7, Don’t worry if you type but nothing appears on the screen. In reality, it is showing — it just displays blank. You can go ahead and enter the password.)
+15. Enter the password you set earlier when prompted (Password from you set in step 7. Don’t worry if nothing appears on the screen when you type - it being entered, but the characters are hidden. You can go ahead and enter the password.)
 16. After successfully logged in to your Raspberry Pi 5, start updating and upgrading the raspberry pi by running the following commands:
     ```
     sudo apt update -y
     sudo apt upgrade -y
     ```
-17. You can now use your Raspberry Pi 5 for your projects!
+17. You can now use your Raspberry Pi 5 for your projects and class!
 
 Reference:
 
