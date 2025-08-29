@@ -12,26 +12,26 @@
 2. Open Raspberry Pi Imager
 3. Select Raspberry Pi Device as Raspberry Pi 5
 4. Select OS as Ubuntu Server 24.04.3 LTS (64-bit) [Other general-purpose OS -> Ubuntu -> Ubuntu Server 24.04.3 LTS (64-bit)]
-5. Select your inserted sd card
+5. Click storage and then Select your inserted sd card 
 6. Click "Next"
 7. On the popup window, click edit config
    - On General tab
      - Set hostname
      - Set Username and Password (Note: Username and password will be used to connect to your Raspberry Pi 5)
      - Set WiFi SSID and Password (2.4 GHz recommended)
-     - Set Local time and keyboard layout
+     - Set Local time and keyboard layout (US or TH recommended)
    - On Service tab
      - Enable SSH (Using password authentication)
 8. Click "Yes" untill you can write to the sd card
 9. After it finished, eject the MicroSD card from your computer and insert it into the Raspberry Pi 5
 10. Connect the power supply to the Raspberry Pi 5
-11. Wait for the Raspberry Pi 5 to boot up (This may take a few minutes)
+11. Wait for the Raspberry Pi 5 to boot up (This may take a few minutes (around 1-3 minutes))
 12. Find the IP address of your Raspberry Pi 5
     - You can find it from your router's connected devices list
-    - Or use a network scanning tool like [Angry IP Scanner](https://angryip.org/) to scan your network for connected devices
+    - Or use a network scanning tool like [Angry IP Scanner](https://angryip.org/) to scan your network for connected devices (If the scan detects a device, it will appear under the hostname you set in method 7. You just need to copy the IP address.)
 13. Open terminal then type command to ssh to raspberry pi 5 `ssh username@ip_address` (replace `username` with the username you set earlier and `ip_address` with the IP address of your Raspberry Pi 5)
 14. If prompted, type "yes" to continue connecting
-15. Enter the password you set earlier when prompted
+15. Enter the password you set earlier when prompted (password from you set in method 7, Don’t worry if you type but nothing appears on the screen. In reality, it is showing — it just displays blank. You can go ahead and enter the password.)
 16. After successfully logged in to your Raspberry Pi 5, start updating and upgrading the raspberry pi by running the following commands:
     ```
     sudo apt update -y
