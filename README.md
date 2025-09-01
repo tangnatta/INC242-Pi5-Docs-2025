@@ -1,1 +1,20 @@
-# INC242-Pi5-Docs-2025
+# Raspberry Pi 5 - INC242
+
+This repository contains setup guides and documentation for Raspberry Pi 5 used in the INC242 course.
+
+## Contents
+
+- [SETUP-PI-OS.md](./SETUP-PI-OS.md) - Complete guide to set up Raspberry Pi 5 with Raspberry Pi OS
+- [INSTALL_VNC.md](./INSTALL_VNC.md) - Instructions to install and configure VNC server for remote desktop access
+- [LINUX_COMMAND_101.md](./LINUX_COMMAND_101.md) - Essential Linux commands for beginners
+
+## Getting Started
+
+1. Follow the [SETUP-PI-OS.md](./SETUP-PI-OS.md) guide to install Raspberry Pi OS on your Pi 5
+2. Optionally, set up VNC for remote access using [INSTALL_VNC.md](./INSTALL_VNC.md)
+3. (Optional) Learn basic Linux commands with [LINUX_COMMAND_101.md](./LINUX_COMMAND_101.md)
+
+## Support
+
+If you encounter any issues, please contact the TA for assistance via the Discord server in the #question-help channel.
+>>>>>>> Stashed changes
