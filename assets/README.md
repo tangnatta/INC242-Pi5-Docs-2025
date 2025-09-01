@@ -1,0 +1,1 @@
+This is the directory for assets and documentation related to the Raspberry Pi 5 setup for the INC242 course. It includes guides for setting up the OS, installing VNC, and learning basic Linux commands.

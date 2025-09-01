@@ -29,10 +29,11 @@
 9. After it finished, eject the MicroSD card from your computer and insert it into the Raspberry Pi 5
 10. Connect the power supply to the Raspberry Pi 5
 11. Wait for the Raspberry Pi 5 to boot up (This may take a few minutes)
-12. Find the IP address of your Raspberry Pi 5
+Find the IP address of your Raspberry Pi 5
     - You can find it from your router's connected devices list
-    - Or use a network scanning tool like [Angry IP Scanner](https://angryip.org/) to scan your network for connected devices
-13. Open terminal then type command to ssh to raspberry pi 5 `ssh username@ip_address` (replace `username` with the username you set earlier and `ip_address` with the IP address of your Raspberry Pi 5)
+    - Or use a network scanning tool like [Angry IP Scanner](https://angryip.org/) to scan your network for connected devices (If the scan detects a device, it will appear under the hostname you set. You just need to copy the IP address.)
+    - Or using hostname instead of IP address to connect to raspberry pi 5
+13. Open terminal then type command to ssh to raspberry pi 5 `ssh username@ip_address` or `ssh username@hostname` (replace `username` with the username you set earlier and `ip_address` with the IP address of your Raspberry Pi 5 or `hostname` with the hostname you set earlier)
 14. If prompted, type "yes" to continue connecting
 15. Enter the password you set earlier when prompted
 16. After successfully logged in to your Raspberry Pi 5, start updating and upgrading the raspberry pi by running the following commands:
@@ -43,4 +44,4 @@
 17. Done! Here your Raspberry Pi 5 is set up and ready to use.
 18. (Optional, but recommended) Install and configure VNC server for remote access. You can follow the guide in [INSTALL_VNC.md](./INSTALL_VNC.md) to install and set up VNC server on your Raspberry Pi 5.
 
-Note1: On typing the config you need to check twice, after it flashed to sd card it cannot be changed unless you reflash the sd card again.
+Note 1: On typing the config you need to check twice, after it flashed to sd card it cannot be changed unless you reflash the sd card again.
