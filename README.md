@@ -17,4 +17,3 @@ This repository contains setup guides and documentation for Raspberry Pi 5 used 
 ## Support
 
 If you encounter any issues, please contact the TA for assistance via the Discord server in the #question-help channel.
->>>>>>> Stashed changes
