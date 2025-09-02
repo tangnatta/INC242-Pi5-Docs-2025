@@ -3,7 +3,7 @@
 # Requirements
 
 - [ ] Raspberry Pi 5
-- [ ] MicroSD card (16GB or larger)
+- [ ] MicroSD card (32 GB)
 - [ ] Power supply
 - [ ] MicroSD card reader
 - [ ] Computer or laptop
