@@ -3,7 +3,7 @@
 # Requirements
 
 - [ ] Raspberry Pi 5
-- [ ] MicroSD card (32 GB)
+- [ ] MicroSD card (32 GB, or the one that given in class)
 - [ ] Power supply
 - [ ] MicroSD card reader
 - [ ] Computer or laptop
@@ -42,6 +42,6 @@ Find the IP address of your Raspberry Pi 5
     sudo apt upgrade -y
     ```
 17. Done! Here your Raspberry Pi 5 is set up and ready to use.
-18. (Optional, but recommended) Install and configure VNC server for remote access. You can follow the guide in [INSTALL_VNC.md](./INSTALL_VNC.md) to install and set up VNC server on your Raspberry Pi 5.
+18. (Optional, but recommended) Install and configure VNC server for remote access. You can follow the guide in [INSTALL_VNC.md](./INSTALL_VNC.md) to install and set up VNC server on your Raspberry Pi 5. 
 
 Note 1: On typing the config you need to check twice, after it flashed to sd card it cannot be changed unless you reflash the sd card again.
