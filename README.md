@@ -4,6 +4,11 @@ This repository contains setup guides and documentation for Raspberry Pi 5 used 
 
 ## Getting Started
 
+0. (Optional) Watch a short video walkthrough. These videos cover flashing, initial setup, and VNC configuration and if you prefer a visual guide, this video is for you:
+
+   - https://youtu.be/ykTlNf1TXO0
+   - https://youtu.be/4CbUiC2dE5s
+
 1. Follow the [SETUP_PI-OS.md](./SETUP_PI-OS.md) guide to install Raspberry Pi OS on your Pi 5
 2. (Optional, but recommended) set up VNC for remote access using [INSTALL_VNC.md](./INSTALL_VNC.md). VNC provides an easy access to the Pi's GUI, without monitor.
 3. (Optional) Learn basic Linux commands with [LINUX_COMMAND_101.md](./LINUX_COMMAND_101.md)
