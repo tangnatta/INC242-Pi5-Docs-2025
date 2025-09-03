@@ -26,8 +26,8 @@ A key advantage is that **no source code needs to be on your local machine** to 
 To get started, you need to perform the following steps:
 
 1.  **Install an SSH Client:** If you don't already have one, [install an OpenSSH.](https://code.visualstudio.com/docs/remote/troubleshooting#_installing-a-supported-ssh-client)
-2.  **Install VS Code:** Install Visual Studio Code or Visual Studio Code Insiders.
-3.  **Install the Extension:** Install the **Remote - SSH** extension. It is also recommended to install the **Remote Development** extension pack if you plan to use other remote capabilities, as it includes all necessary extensions.
+2.  **Install VS Code:** [Install Visual Studio Code](https://code.visualstudio.com/)
+3.  **Install the Extension:** Install the [**Remote - SSH**](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) extension. It is also recommended to install the **Remote Development** extension pack if you plan to use other remote capabilities, as it includes all necessary extensions.
 
 ## 2. Connecting to the Server
 
