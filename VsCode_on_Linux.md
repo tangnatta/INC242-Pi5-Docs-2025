@@ -1,4 +1,4 @@
-# # A Guide to Visual Studio Code on Linux
+#  A Guide to Visual Studio Code on Linux
 
 This guide is written to help students easily install and use VS Code on Linux systems.
 
