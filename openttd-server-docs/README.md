@@ -7,10 +7,9 @@ Special thanks to previous community contributors who built earlier versions and
 0. Login to your Raspberry Pi 5 via SSH or VNC
 1. Download our prebuilt snap package from the `assets` directory in this repository. You can use `wget` or `curl` command to download it directly to your Raspberry Pi 5.
    For example:
-   ````
+   ```
    wget https://raw.githubusercontent.com/tangnatta/INC242-Pi5-Docs-2025/refs/heads/main/openttd-server-docs/assets/openttd-server_14.1_arm64.snap
-    ```
-   ````
+   ```
 2. Install the snap package using the `snap` command:
    ```
    sudo snap install --dangerous openttd-server_14.1_arm64.snap
