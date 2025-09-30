@@ -18,7 +18,7 @@ Special thanks to previous community contributors who built earlier versions and
    ```
    sudo snap start openttd-server
    ```
-4. Connect to the OpenTTD server from your OpenTTD client on your computer using the IP address of your Raspberry Pi 5 and the default port (3979).
+4. Connect to the OpenTTD server from your OpenTTD client on your computer using the IP address of your Raspberry Pi 5 and the default port (`3979`).
 
 ## FYI
 
