@@ -20,6 +20,8 @@ Special thanks to previous community contributors who built earlier versions and
    ```
 4. Connect to the OpenTTD server from your OpenTTD client on your computer using the IP address of your Raspberry Pi 5 and the default port (`3979`).
 
+   **Caution**: Make sure your Raspberry Pi 5 and your computer are on the same local network.
+
 ## FYI
 
 - To stop the OpenTTD server, use the following command:
