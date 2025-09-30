@@ -18,6 +18,7 @@ This repository contains setup guides and documentation for Raspberry Pi 5 used 
 - [SETUP_PI-OS.md](./SETUP_PI-OS.md) - Complete guide to set up Raspberry Pi 5 with Raspberry Pi OS
 - [INSTALL_VNC.md](./INSTALL_VNC.md) - Instructions to install and configure VNC server for remote desktop access
 - [LINUX_COMMAND_101.md](./LINUX_COMMAND_101.md) - Essential Linux commands for beginners
+- [openttd-server-docs](./openttd-server-docs) - Documentation and assets for setting up OpenTTD server on Raspberry Pi 5
 
 ## Support
 
