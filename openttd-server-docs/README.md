@@ -5,20 +5,26 @@ Special thanks to previous community contributors who built earlier versions and
 # Step by step Guide
 
 0. Login to your Raspberry Pi 5 via SSH or VNC
-1. Download our prebuilt snap package from the `assets` directory in this repository. You can use `wget` or `curl` command to download it directly to your Raspberry Pi 5.
+1. Install snap and snapd if not already installed:
+   ```
+   sudo apt update
+   sudo apt install snapd
+   sudo snap install snapd
+   ```
+2. Download our prebuilt snap package from the `assets` directory in this repository. You can use `wget` or `curl` command to download it directly to your Raspberry Pi 5.
    For example:
    ```
    wget https://raw.githubusercontent.com/tangnatta/INC242-Pi5-Docs-2025/refs/heads/main/openttd-server-docs/assets/openttd-server_14.1_arm64.snap
    ```
-2. Install the snap package using the `snap` command:
+3. Install the snap package using the `snap` command:
    ```
    sudo snap install --dangerous openttd-server_14.1_arm64.snap
    ```
-3. After installation, you can start the OpenTTD server using the following command:
+4. After installation, you can start the OpenTTD server using the following command:
    ```
    sudo snap start openttd-server
    ```
-4. Connect to the OpenTTD server from your OpenTTD client on your computer using the IP address of your Raspberry Pi 5 and the default port (`3979`).
+5. Connect to the OpenTTD server from your OpenTTD client on your computer using the IP address of your Raspberry Pi 5 and the default port (`3979`).
 
    **Caution**: Make sure your Raspberry Pi 5 and your computer are on the same local network.
 
