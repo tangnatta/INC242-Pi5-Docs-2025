@@ -38,3 +38,19 @@ Special thanks to previous community contributors who built earlier versions and
   ```
   sudo snap logs openttd-server -n='all'
   ```
+- To find your raspberry pi 5 IP address, you can use the following command:
+  ```
+  hostname -I
+  ```
+  Or
+  ```
+  ifconfig
+  ```
+  Or
+  ```
+  ip addr show
+  ```
+- To find opening ports on your raspberry pi 5, you can use the following command:
+  ```
+  sudo netstat -tulnp
+  ```
