@@ -11,19 +11,38 @@ Special thanks to previous community contributors who built earlier versions and
    sudo apt install snapd
    sudo snap install snapd
    ```
-2. Download our prebuilt snap package from the `assets` directory in this repository. You can use `wget` or `curl` command to download it directly to your Raspberry Pi 5.
-   For example:
-   ```
-   wget https://raw.githubusercontent.com/tangnatta/INC242-Pi5-Docs-2025/refs/heads/main/openttd-server-docs/assets/openttd-server_14.1_arm64.snap
-   ```
-3. Install the snap package using the `snap` command:
-   ```
-   sudo snap install --dangerous openttd-server_14.1_arm64.snap
-   ```
-4. After installation, you can start the OpenTTD server using the following command:
-   ```
-   sudo snap start openttd-server
-   ```
+2. Install options (choose one):
+
+   - **Option A** — Install the community OpenTTD Server V14.1 snap from the edge channel (recommended):
+
+     Thanks to the upstream repository merged a PR that provides an official edge snap build (see https://github.com/zoltantamasvajda/openttd-server/pull/6).
+
+     ```
+     sudo snap install openttd-server --edge
+     ```
+
+   - **Option B** — Install our prebuilt local snap pakage:
+
+   1. Download the prebuilt snap package from the `assets` directory in this repository and install it locally. You can use `wget` or `curl` to download it directly to your Raspberry Pi 5.
+
+      For example:
+
+      ```
+      wget https://raw.githubusercontent.com/tangnatta/INC242-Pi5-Docs-2025/refs/heads/main/openttd-server-docs/assets/openttd-server_14.1_arm64.snap
+      ```
+
+   2. Install the downloaded snap locally. Because this is a local package, you must use the `--dangerous` flag with `snap install`:
+
+      ```
+      sudo snap install --dangerous openttd-server_14.1_arm64.snap
+      ```
+
+3. After installation, start the OpenTTD server:
+
+```
+sudo snap start openttd-server
+```
+
 5. Connect to the OpenTTD server from your OpenTTD client on your computer using the IP address of your Raspberry Pi 5 and the default port (`3979`).
 
    **Caution**: Make sure your Raspberry Pi 5 and your computer are on the same local network.
