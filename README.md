@@ -19,6 +19,7 @@ This repository contains setup guides and documentation for Raspberry Pi 5 used 
 - [INSTALL_VNC.md](./INSTALL_VNC.md) - Instructions to install and configure VNC server for remote desktop access
 - [LINUX_COMMAND_101.md](./LINUX_COMMAND_101.md) - Essential Linux commands for beginners
 - [openttd-server-docs](./openttd-server-docs) - Documentation and assets for setting up OpenTTD server on Raspberry Pi 5
+- [launti-server](./launti-server) - Documentation and assets for setting up Launti Minetest server on Raspberry Pi 5
 
 ## Support
 

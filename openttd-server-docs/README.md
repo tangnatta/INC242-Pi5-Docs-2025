@@ -49,6 +49,8 @@ sudo snap start openttd-server
 
 ## FYI
 
+### Useful Snap Commands
+
 - To stop the OpenTTD server, use the following command:
   ```
   sudo snap stop openttd-server
@@ -57,6 +59,9 @@ sudo snap start openttd-server
   ```
   sudo snap logs openttd-server -n='all'
   ```
+
+### Network related commands
+
 - To find your raspberry pi 5 IP address, you can use the following command:
   ```
   hostname -I
@@ -73,3 +78,10 @@ sudo snap start openttd-server
   ```
   sudo netstat -tulnp
   ```
+
+### OpenTTD related
+
+- OpenTTD server configuration documentation can be found at:
+  https://wiki.openttd.org/en/Archive/Manual/Settings/Openttd.cfg
+- OpenTTD config file for the snap package is located at:
+  `/root/snap/openttd-server/current/.config/openttd/openttd.cfg`
